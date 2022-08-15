@@ -1,0 +1,103 @@
+
+*{
+box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(27, 162, 229);
+    color: white;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2em;  
+}
+
+.nav_item{
+    text-decoration: none;
+    color: white;
+}
+
+.nav_item_link{
+    border-bottom: 2px solid rgb(244, 155, 12);
+}
+
+.hero{
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.hero_article{
+    margin-bottom: 2.5em;
+}
+
+.hero_title{
+    line-height: 2em;
+}
+
+.hero_link{
+    text-decoration: none;
+    color: white;
+    border-bottom: 4px solid rgb(244, 155, 12);
+}
+
+.card{
+    background-color: white;
+    color: black;
+    padding: 1em 2em;
+    margin: 1em 0;
+    border-radius: 0.5em;
+}
+
+.card_title{
+    margin: 0;
+}
+
+.card_text{
+    color: rgb(71, 73, 74);
+}
+
+.card_link{
+    text-decoration: none;
+    color: rgb(244, 155, 12);
+}
+
+@media (min-width: 600px) {
+    .nav{
+        width: 70%;
+    }
+    .hero {
+      width: 70%;
+      display: flex;
+    }
+
+    .hero_article{
+        margin-right: 2em;
+        margin-top: 3em;
+    }
+
+    .hero_title{
+        font-size: 2.5rem;
+        line-height: 1.5em;
+    }
+
+    .hero_text{
+        margin-bottom: 4em;
+        line-height: 2em;
+    }
+
+    .card_container{
+        margin-top: 7em;
+    }
+
+    .card{
+        width: 120%;
+    }
+}
