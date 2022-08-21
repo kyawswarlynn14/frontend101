@@ -26,16 +26,6 @@ body {
     padding: 1em;
 }
 
-.circe{
-    width: 40em;
-    aspect-ratio: 1/1;
-    background-color: var(--backgroundColor);
-    border-radius: 50%;
-    position: absolute;
-    top: -23em;
-    right: -4em;
-}
-
 .promise{
     margin: 0 auto;
     padding-bottom: 5em;
@@ -339,6 +329,16 @@ section{
 }
 
 @media (min-width: 600px) {
+
+    .circe{
+        width: 40em;
+        aspect-ratio: 1/1;
+        background-color: var(--backgroundColor);
+        border-radius: 50%;
+        position: absolute;
+        top: -23em;
+        right: -4em;
+    }
 
     .desktopWidth{
         width: 70%;
