@@ -202,7 +202,7 @@ section{
 .part4{
     background-color: var(--blockBackgroundColor);
     padding: 2em 1em;
-    margin: 3em auto;
+    margin: 0 auto;
     margin-top: 5em;
     text-align: center;
 }
@@ -233,7 +233,7 @@ section{
 }
 
 .part5{
-    margin: 3em auto;
+    margin: 0 auto;
     padding: 1em;
     background-color: #243349;
     color: var(--backgroundColor);
