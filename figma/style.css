@@ -56,10 +56,6 @@ body {
     display: inline;
 }
 
-.promise_hero_left{
-    text-align: center;
-}
-
 .promise_hero_left_title{
     line-height: 1.3em;
     font-family: var(--headerFont);
@@ -68,7 +64,6 @@ body {
 .promise_hero_left_text{
     line-height: 2em;
     margin-bottom: 3em;
-    text-align: start;
 }
 
 .promise_hero_left_btn{
@@ -269,13 +264,13 @@ section{
 }
 
 .part5_left_img2{
-    width: 80px;
+    width: 5em;
+    margin-bottom: -6em;
 }
 
 .part5_left_text2{
-    position: relative;
-    left: 6em;
-    bottom: 6em;
+    display: inline-block;
+    margin-left: 6em;
 }
 
 .part5_right{
@@ -449,6 +444,104 @@ section{
     line-height: 2em;
 }
 
+.part9_img_container{
+    margin-top: -15em;
+}
+
+.part9_img{
+    width: 20em;
+    position: relative;
+    top: 20.5em;
+}
+
+.part9_text_box{
+    text-align: start;
+}
+
+.part9_title{
+    font-family: var(--headerFont);
+}
+
+.part9_text_box{
+    margin-top: 4em;
+}
+
+.part9_text{
+    line-height: 2em;
+}
+
+.part9_item_box{
+    margin-bottom: 2em;
+}
+
+.part9_item_img{
+    margin-bottom: -0.3em;
+}
+
+.part9_item_text{
+    display: inline;
+    font-size: 0.9rem;
+}
+
+.part10{
+    padding: 1em;
+}
+
+.part10_title{
+    font-family: var(--headerFont);
+}
+
+.part10_text{
+    line-height: 2em;
+    margin-bottom: 3em;
+}
+
+.part10_img{
+    width: 100%;
+    margin-top: 5em;
+}
+
+.part11{
+    padding: 3em 1em;
+}
+
+.part11_title{
+    font-family: var(--headerFont);
+}
+
+.part11_box_container{
+    margin: 3em 0;
+}
+
+.part11_box{
+    box-shadow: var(--boxShadow);
+    padding: 1em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+
+.part11_box_img{
+    margin-right: 1em;
+    margin-bottom: -0.5em;
+}
+
+.part11_box_title{
+    display: inline;
+}
+.part11_box_text{
+    margin-left: 3.5em;
+    line-height: 1.7em;
+}
+
+.footer{
+    text-align: center;
+}
+
+.copyright{
+    text-align: start;
+    font-family: var(--headerFont);
+    font-weight: 400;
+}
 
 @media (min-width: 600px) {
 
@@ -570,6 +663,39 @@ section{
     .part8_text_box{
         width: 50%;
     }
+
+    .part9_container{
+        display: flex;
+    }
+
+    .part9_text_box{
+        width: 60%;
+        margin-left: 1em;
+    }
+
+    .part10{
+        display: flex;
+        margin: 5em auto;
+    }
+
+    .part10_img{
+        width: 120%;
+        margin-top: 1em;
+        margin-left: 3em;
+    }
+
+    .part11{
+        text-align: center;
+    }
+
+    .part11_box_container{
+        text-align: start;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: space-around;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -583,6 +709,7 @@ section{
         border-radius: 1em;
         margin-bottom: 1em;
     }
+
   }
   
   @media (prefers-color-scheme: light) {
