@@ -444,14 +444,11 @@ section{
     line-height: 2em;
 }
 
-.part9_img_container{
-    margin-top: -15em;
-}
-
 .part9_img{
     width: 20em;
-    position: relative;
-    top: 20.5em;
+    margin-bottom: -20.5em;
+    z-index: 2;
+    isolation: isolate;
 }
 
 .part9_text_box{
