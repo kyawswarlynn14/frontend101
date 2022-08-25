@@ -444,11 +444,30 @@ section{
     line-height: 2em;
 }
 
+.part9_img_container{
+    width: 100%;
+    aspect-ratio: 1/1;
+    position: relative;
+}
+
+.part9_img,
+.part9_img_circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.part9_img_circle{
+    width: 60%;
+    aspect-ratio: 1/1;
+    background-color: coral;
+    border-radius: 50%;
+}
+
 .part9_img{
-    width: 20em;
-    margin-bottom: -20.5em;
-    z-index: 2;
-    isolation: isolate;
+    width: 60%;
+    aspect-ratio: 1/1;
 }
 
 .part9_text_box{
@@ -665,6 +684,12 @@ section{
         display: flex;
     }
 
+    .part9_img_container{
+        width: 70%;
+        aspect-ratio: 1/1;
+
+    }
+
     .part9_text_box{
         width: 60%;
         margin-left: 1em;
@@ -696,13 +721,14 @@ section{
 }
 
 @media (prefers-color-scheme: dark) {
+
     :root {
-        --backgroundColor: #000;
+        --backgroundColor: #343a40;
         --textColor: #fff;
     }
 
     .darkTheme{
-        background-color: #343a40;
+        background-color: #4e5154;
         border-radius: 1em;
         margin-bottom: 1em;
     }
